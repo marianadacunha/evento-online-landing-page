@@ -1,7 +1,94 @@
 body {
     background-color: blueviolet;
+    width: 100%;
+}
+
+#tituloLive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 800;
+    color: rgb(250,250,250);
+    font-size: 70px;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 75px;
+    margin-right: 75px;
+    line-height: 65px;
+}
+
+#subtitulo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 300;
+    color: rgb(212, 212, 212);
+    font-size: 30px;
+    text-align: center;
+    margin-top: 50px;
+}
+
+#formulario {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+#tituloFormulario {
+    font-weight: 600;
+    color: rgb(250, 250, 250);
+    font-size: 15px;
+}
+
+button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+#infoLive {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: rgb(250,250,250);
+    font-size: 25px;
+    margin-top: 25px;
+    line-height: 28px;
+    margin-bottom: 80px;
+}
+
+#contagemRegressiva {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+    color: rgb(250,250,250);
+    font-size: 25px;
+    margin-top: 25px;
+    margin-bottom: 80px;
 }
 
 #fotoConvidado {
     width: 100px;
+    display: block;
+    margin: auto;
+}
+
+#nomeConvidado {
+    font-weight: 800;
+    color: rgb(250,250,250);
+    font-size: 25px;
+    text-align: center;
+}
+
+#bioConvidado {
+    color: rgb(212, 212, 212);
+    font-size: 15px;
+    text-align: justify;
+    margin-top: 10px;
+    padding: 25px;
 }
