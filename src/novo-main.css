@@ -62,10 +62,15 @@ button {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 15px;
+    margin-top: 20px;
     margin-bottom: 25px;
 }
 
+#buttonQuero{
+    background-color: orange;
+    border-color: #80bdff;
+    margin-top: 20px;
+}
 #contagemRegressiva {
     width: 600px;
     display: block;
