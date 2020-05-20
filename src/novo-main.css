@@ -139,6 +139,10 @@ button {
 }
 
 #tituloConvidados {
+    font-family: Arimo;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
