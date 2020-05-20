@@ -70,10 +70,15 @@ button {
     margin-bottom: 25px;
 }
 
-#buttonQuero{
-    background-color: orange;
+#inputTexto{
+    height: 200px;
+}
+
+#buttonQuero {
+    background-color: #fc4a1a;
     border-color: #80bdff;
-    margin-top: 20px;
+    height: 40px;
+    width: 602px;
 }
 #contagemRegressiva {
     width: 600px;
@@ -154,4 +159,7 @@ button {
     text-align: center;
     color: white;
     margin-bottom: 40px;
+}
+@media (min-width: 789px) and (max-width: 957.98px) {
+    
 }

@@ -48,6 +48,9 @@
             <li class="nav-item">
               <a class="nav-link" href="#">PARCEIROS</a>
             </li>
+            <li class="nav-item">
+                <a class="nav-link" href="#">CONTATO</a>
+            </li>
           </ul>
         </div>
       </div>
@@ -63,7 +66,8 @@
 
       <div class="col-md-6">
         <h1 id="infoLive">
-          21 de Maio de 2020 </br>
+          21 de Maio de 2020 </br> 
+          18h às 20h30</br>
           Online e Gratuito
         </h1>
       </div>
@@ -85,25 +89,18 @@
       <div class="col-md-6" id="formulario">
         <form id="form" role="form">
           <div class="form-group">
-            <label for="inputNome" id="tituloFormulario">
-              Nome Completo
-            </label>
-            <input name="inputNome" type="text" class="form-control" id="inputNome" />
+           <input name="inputNome" placeholder="Nome Completo" type="text" size="40" class="form-control" id="inputNome" />
           </div>
-
-          <label for="inputEmail" id="tituloFormulario">
-            E-mail
-          </label>
-          <input name="inputEmail" type="email" class="form-control" id="inputEmail" />
-          
-          <label for="inputNome" id="tituloFormulario">
-            O que você espera do evento?
-          </label>
-          <input name="inputNome" type="text" class="form-control" id="inputNome" />
-          <!-- <button type="submit" class="btn btn-primary">
-            Quero participar
-          </button> -->
-          <input class="btn btn-primary" type="submit" id="buttonQuero" value="Quero participar" />
+          <div class="form-group" role="form">
+           <input name="inputEmail" placeholder="E-mail" type="email" class="form-control" id="inputEmail" />
+          </div>
+          <div class="form-group" role="form">
+              <textarea name="inputTexto" type="text" placeholder="O que você espera do evento?" class="form-control"
+               id="inputTexto"></textarea>    
+          </div>
+          <div class="form-group" role="form">
+            <input class="btn btn-primary" type="submit" id="buttonQuero" value="QUERO ME INSCREVER!" />
+          </div>
         </form>
       </div>
     </div>
