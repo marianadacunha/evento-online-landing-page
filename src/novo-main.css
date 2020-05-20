@@ -17,8 +17,9 @@ a {
 
 .nav-link{
     text-transform: uppercase;    
-    font-family: 'Open Sans'; 
+    font-family: 'Arimo';
     font-size: 20px;
+    font-weight: 600;
     line-height: 41px;
     color: rgb(255, 255, 255);
 }
@@ -42,7 +43,8 @@ a {
     justify-content: center; */
     margin: 85px 50px 0 0;
 
-    font-family: 'Roboto';
+    font-family: 'Sura';
+    font-weight: 600;
     font-size: 25px;
     line-height: 35px;
     text-align: right;
@@ -56,7 +58,7 @@ a {
     font-family: 'Arimo';
     font-style: normal;
     font-weight: normal;
-    font-size: 31px;
+    font-size: 25px;
     line-height: 35px;
 }
 
@@ -130,9 +132,12 @@ button {
     align-items: center;
     justify-content: center;
     text-align: center;
+
+    font-family: 'Sura';
     font-weight: 600;
     color: rgb(250,250,250);
     font-size: 25px;
+
     margin-top: 70px;
     background-color: #399486;
     padding: 50px;
@@ -146,6 +151,7 @@ button {
     margin-top: 50px;
     padding: 40px;
     background-color: white;
+    font-family: 'Sura';
 }
 
 #chamadaConvidados {
@@ -169,25 +175,39 @@ button {
 #nomeConvidado {
     font-weight: 800;
     color: black;
+    font-family: 'Arimo';
     font-size: 25px;
     text-align: center;
     padding-top: 20px;
+    margin-bottom: 0;
 }
 
 #profissaoConvidado {
+    color: #399486;
+    font-size: 16px;
+    text-align: center;
+    font-family: 'Arimo';
+    font-weight: 700;
+}
+
+#bioConvidado {
     color: black;
     font-size: 15px;
     text-align: center;
+    padding: 10px;
+    line-height: 18px;
+    font-family: 'Arimo';
 }
-
 #tituloParceiros, #tituloContato {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 40px;
+    font-family: 'Sura';
 }
 
 #parceiros, #contato {
+    font-family: 'Arimo';
     font-weight: 700;
     font-size: 35px;
 }
@@ -210,5 +230,5 @@ button {
     
 }
 @media (min-width: 789px) and (max-width: 957.98px) {
-    
+
 }
