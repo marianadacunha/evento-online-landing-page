@@ -61,3 +61,17 @@ function timeCounter($elements) {
   });
 }
   //Fim da programação do contador
+
+  // Começo da programação do popup
+
+function onMouseOut(event) {
+  if (event.clientY < 50) {
+    document.removeEventListener("mouseout", onMouseOut);
+
+    document.getElementById("popup").style.display = "block";
+  }
+}
+
+document.addEventListener("mouseout", onMouseOut);
+
+// Fim da programação do popup

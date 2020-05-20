@@ -5,6 +5,65 @@ body {
     padding: 0px;
 }
 
+* {
+    box-sizing: border-box;
+  }
+  
+#popup {
+    display: none;
+  }
+  
+.popup__wrapper {
+    background: rgba(0, 0, 0, .85);
+    position: fixed;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    z-index: 10;
+  }
+  
+.popupContainer {
+    background: #4ABDAC;
+    font-family: 'Arimo';
+    font-size: 18px;
+    margin: 100px auto;
+    max-width: 100%;
+    padding: 20px;
+    width: 500px;
+    color: white;
+    border-radius: 3px;
+  }
+  
+.popupTitulo {
+    font-family: 'Sura';
+    font-weight: 600;
+    font-size: 26px;
+    margin-bottom: 15px;
+    color: #000000;
+  }
+
+#popup_close {
+    position: absolute;
+    left: 70%;
+    top: 10%;
+    margin: 7px 0 0 -30px;
+    width: 25px;
+    height: 25px;
+    color: #ffffff;
+    opacity:0.5;
+    cursor: pointer;
+}
+
+#popup_close::before {
+    content: "×";
+    font: 400 26px/1em 'Sura';
+}
+
+#popup_close:hover {
+    opacity:0.8;
+}
+
 a {
     color: white;
 }
