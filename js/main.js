@@ -7,8 +7,12 @@ $('#form').submit(function (event) {
     url: 'https://outlook.us18.list-manage.com/subscribe/post',
     method: 'POST',
     data: { u: 'ce4f57f3871709a26713b63e9', id: 'c4029c7854', EMAIL: email, NAME: name },
-    dataType: 'jsonp'
+    dataType: 'jsonp',
+    success: function () {
+      window.location.replace("https://web.facebook.com/");
+    }
   });
+
   alert("Dados enviados com sucesso"); //Gambiarra alert
 });
 
@@ -44,10 +48,10 @@ function _timeLeft(now, end) {
     if (days + hours + minutes + seconds > 0) {
       return left;
     } else {
-      return 'Evento começou!!!! bla ';
+      return 'Evento começou!!!!';
     }
   } else {
-    return 'Evento começou!!!! tutu';
+    return 'Evento começou!!!!';
   }
 }
 
