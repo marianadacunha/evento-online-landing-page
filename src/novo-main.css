@@ -180,14 +180,14 @@ button {
     padding: 30px;
 }
 
-#tituloParceiros {
+#tituloParceiros, #tituloContato {
     display: flex;
     align-items: center;
     justify-content: center;
     padding: 40px;
 }
 
-#parceiros {
+#parceiros, #contato {
     font-weight: 700;
     font-size: 35px;
 }
@@ -197,6 +197,16 @@ button {
     text-align: center;
     color: white;
     margin-bottom: 40px;
+}
+
+#tituloContato {
+    background-color: white;
+}
+
+#containerContato {
+    background-color: white;
+    width: 600px;
+    
 }
 @media (min-width: 789px) and (max-width: 957.98px) {
     
