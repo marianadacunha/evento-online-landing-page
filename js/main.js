@@ -7,13 +7,13 @@ $('#form').submit(function (event) {
     url: 'https://outlook.us18.list-manage.com/subscribe/post',
     method: 'POST',
     data: { u: 'ce4f57f3871709a26713b63e9', id: 'c4029c7854', EMAIL: email, NAME: name },
-    dataType: 'jsonp',
-    success: function () {
-      window.location.replace("https://web.facebook.com/");
-    }
+    dataType: 'jsonp'
   });
+});
 
-  alert("Dados enviados com sucesso"); //Gambiarra alert
+$('#form').submit(function (event) {
+  alert("Dados enviados com sucesso"),
+    window.location.href = "https://web.facebook.com/";
 });
 
 
