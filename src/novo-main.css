@@ -321,6 +321,10 @@ label {
         justify-content: center;
     }
 
+    label{
+        justify-content: center;
+    }
+
     .videos{
         justify-content: center;
         margin-left: 0;
@@ -389,6 +393,14 @@ label {
         text-align: center;
         flex-direction: column;
     }    
+
+    label{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        flex-direction: column;
+    }
 }
 
 @media (max-width: 1055px) {
