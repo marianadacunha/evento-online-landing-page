@@ -336,24 +336,31 @@ body {
 
 /* Para aplicar a responsividade de acordo com a resolução da tela: */
 @media (max-width: 1225px) {
-    /* 1360px    625 px*/    
 
     .nav-link{
         font-size: 16px;
     }
+
     #tituloLive{
         font-size: 60px;
     }
+
     #infoLive{
         font-size: 21px;
     }
+
     #subtitulo{
         font-size: 21px;
     }
 
+    .apresentacao{
+        display: flex;
+        justify-content: center;
+    }
+
     .videos{
-        flex-direction: row;
-        justify-content: space-around;
+        flex-direction: column;
+        justify-content: center;
         margin: 0;
     }
 
@@ -361,9 +368,14 @@ body {
         width: 500px;
         font-size: 30px;
     }
-    
 
-    
+    #form{
+        display: flex;
+        justify-content: center;
+        justify-items: center;
+        text-align: center;
+        flex-direction: column;
+    }    
 }
 
 @media (max-width: 1055px) {
@@ -380,6 +392,12 @@ body {
         font-size: 19px;
     }
 
+    #introducao{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
     #tituloLive, #infoLive, #subtitulo{
         display: flex;
         justify-content: center;
@@ -389,12 +407,8 @@ body {
 
     .videos{
         margin: 0;
-        justify-content: center;
-        justify-items: center;
         align-items: center;
     }
-
-
 }
 
 @media (max-width: 965px) { 
@@ -410,8 +424,7 @@ body {
     }
     #subtitulo{
         font-size: 17px;
-    }
-    
+    }    
 }
 
 @media (max-width: 880px) {
@@ -428,9 +441,9 @@ body {
         font-size: 15px;
     }
 
-    .videos{
+    /* .videos{
         margin-left: 10em;
-    }
+    } */
     
 }
 
@@ -469,7 +482,7 @@ body {
     .videos{
         flex-direction: column;
         justify-content: space-around;
-        margin-left: 6.5em;
+        /* margin-left: 6.5em; */
     }    
 
     #contagemRegressiva{
@@ -480,9 +493,7 @@ body {
     #buttonEnviar{
         display: flex;
         justify-content: center;
-    }
-
-    
+    }   
 
     .form-group{
         display: flex;
