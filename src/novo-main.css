@@ -345,8 +345,10 @@ body {
         justify-content: space-around;
         margin: 0;
     }
+
     #contagemRegressiva{
-        
+        width: 500px;
+        font-size: 30px;
     }
 }
 
@@ -377,12 +379,6 @@ body {
         justify-items: center;
         align-items: center;
     }
-
-    .teste{
-        width: 250px;
-        height: 250px;
-    }
-
 }
 
 @media (max-width: 965px) { 
@@ -399,14 +395,6 @@ body {
     #subtitulo{
         font-size: 17px;
     }
-
-    /* .icon{
-        display: block !important; 
-    }
-    
-    .icon i {
-        font-size: 20px;
-    } */
     
 }
 
@@ -415,23 +403,18 @@ body {
     .nav-link{
         font-size: 10px;
     }
+
     #tituloLive{
         font-size: 52px;
     }
-    #infoLive{
-        font-size: 15px;
-    }
-    #subtitulo{
+
+    #infoLive, #subtitulo{
         font-size: 15px;
     }
 
-    /* .icon{
-        display: block !important; 
+    .videos{
+        margin-left: 10em;
     }
-    
-    .icon i {
-        font-size: 20px;
-    } */
     
 }
 
@@ -491,4 +474,11 @@ body {
         display: flex;
         justify-content: center;
     }    
+}
+
+@media (max-width: 550px) { 
+
+    .videos{
+        margin-left: 2em;
+    }  
 }
