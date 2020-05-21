@@ -75,3 +75,13 @@ function onMouseOut(event) {
 document.addEventListener("mouseout", onMouseOut);
 
 // Fim da programação do popup
+
+//Menu hamburguer - mobile
+function myFunction() {
+  var x = document.getElementById("submenu");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
