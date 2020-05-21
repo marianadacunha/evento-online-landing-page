@@ -64,9 +64,9 @@ body {
     opacity:0.8;
 }
 
-a {
+/* a {
     color: white;
-}
+} */
 
 #menu {
     background-color: #399486;
@@ -87,27 +87,20 @@ a {
     margin-top: 50px;
     margin-left: 75px;
     margin-right: 75px;
-
     font-family: 'Sura';
     font-weight: 800;
     font-size: 65px;
-    line-height: 110px;
-    
+    line-height: 110px;    
     color: #000000;
 }
 
 #infoLive {
-    /* display: flex;
-    align-items: center;
-    justify-content: center; */
     margin: 85px 50px 0 0;
-
     font-family: 'Sura';
     font-weight: 600;
     font-size: 25px;
     line-height: 35px;
-    text-align: right;
-    
+    text-align: right;    
     color: #FFFFFF;
 }
 
@@ -153,13 +146,13 @@ a {
     margin-bottom: 2em;
 }
 
-button {
+/* button {
     display: flex;
     align-items: center;
     justify-content: center;
     margin-top: 20px;
     margin-bottom: 25px;
-}
+} */
 
 #inputTexto{
     height: 200px;
@@ -172,16 +165,13 @@ button {
     height: 50px;
     width: 602px;
     padding: 10px;
-
     font-family: 'Roboto';
     font-style: normal;
     font-weight: bold;
     line-height: 33px;
     display: flex;
-    justify-content: center;
-    
+    justify-content: center;    
     color: #FFFFFF;
-
     text-transform: uppercase;
 }
 #contagemRegressiva {
@@ -191,12 +181,10 @@ button {
     align-items: center;
     justify-content: center;
     text-align: center;
-
     font-family: 'Sura';
     font-weight: 600;
     color: rgb(250,250,250);
     font-size: 25px;
-
     margin-top: 70px;
     background-color: #399486;
     padding: 50px;
@@ -462,17 +450,24 @@ button {
         font-size: 15px;
     }
 
+    #menu{        
+        
+    }
+
     .icon i{
         display: block; 
         font-size: 30px;
+        text-align: center;        
     }
 
     #submenu{
-        display: none;
+        display: none;  
+        justify-content: center;
+        text-align: center;    
+        text-decoration: underline;  
     }
 
     .alinhamento {
-        display: flex;
         flex-direction: column;
     }
 
@@ -500,7 +495,5 @@ button {
         display: flex;
         justify-content: center;
     }
-
-    
     
 }
