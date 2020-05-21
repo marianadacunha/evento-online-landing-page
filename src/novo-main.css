@@ -474,7 +474,9 @@ body {
 
     #contagemRegressiva{
         width: 300px;
+        height: 140px;
         font-size: 15px;
+        padding-top: 40px;
     }
 
     #buttonEnviar{
