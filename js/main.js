@@ -1,20 +1,43 @@
 $('#form').submit(function (event) {
   var name = $('#inputNome').val();
   var email = $('#inputEmail').val();
+  var mensagem = $('#inputTexto').val();
 
   event.preventDefault();
   $.ajax({
     url: 'https://outlook.us18.list-manage.com/subscribe/post',
     method: 'POST',
-    data: { u: 'ce4f57f3871709a26713b63e9', id: 'c4029c7854', EMAIL: email, NAME: name },
+    data: { u: 'ce4f57f3871709a26713b63e9', id: 'c4029c7854', NAME: name, EMAIL: email, MENSAGEM: mensagem },
     dataType: 'jsonp'
   });
 });
 
 $('#form').submit(function (event) {
-  alert("Dados enviados com sucesso"),  
-    window.location.href = "https://www.youtube.com/channel/UCfz6N9d414GjUHpHc00C3LQ/featured";
+  alert("Dados enviados com sucesso")
+    // window.location.href = "https://www.youtube.com/channel/UCfz6N9d414GjUHpHc00C3LQ/featured";
 });
+
+//Início form do contato
+
+$('#formContato').submit(function (event) {
+  var name = $('#contatoNome').val();
+  var email = $('#contatoEmail').val();
+  var mensagem = $('#contatoTexto').val();
+
+  event.preventDefault();
+  $.ajax({
+    url: 'https://outlook.us18.list-manage.com/subscribe/post',
+    method: 'POST',
+    data: { u: 'ce4f57f3871709a26713b63e9', id: 'c4029c7854', EMAIL: email, NAME: name, MENSAGEM: mensagem },
+    dataType: 'jsonp'
+  });
+});
+
+$('#formContato').submit(function (event) {
+  alert("Dados enviados com sucesso")
+});
+
+//Fim form do contato
 
 
 //Começo da programação do contador
