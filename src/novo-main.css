@@ -58,7 +58,7 @@ body {
 .videos{
     display: flex;
     flex-direction: column;
-    margin-left: 220px;
+    /*margin-left: 220px;*/
     margin-top: 2em;
 }
 
@@ -319,6 +319,18 @@ label {
 
     #formulario{
         justify-content: center;
+        width: 100%;
+    }
+
+    #formContato{
+        justify-content: center;
+        width: 100%;
+        max-width: 1000px;
+        text-align: center;
+    }
+    #form {
+        width: 100%;
+        justify-content: center;
     }
 
     label{
@@ -332,7 +344,12 @@ label {
     }
 
     .form-control{
-        width: 250px ;
+        max-width: 350px;
+        width: 100%;
+    }
+
+    .form-group{
+        width: 100%;
     }
 
     #buttonQuero{
@@ -349,6 +366,19 @@ label {
         display: flex;
         justify-content: center;
         padding: 0;
+        width: 100%;
+    }
+
+    #contatoNome {
+        margin: auto;
+    }
+
+    #contatoEmail {
+        margin: auto;
+    }
+
+    #contatoTexto {
+        margin: auto;
     }
 }
 
@@ -392,6 +422,8 @@ label {
         justify-items: center;
         text-align: center;
         flex-direction: column;
+        width: 100%;
+    
     }    
 
     label{
