@@ -12,8 +12,8 @@ $('#form').submit(function (event) {
 });
 
 $('#form').submit(function (event) {
-  alert("Dados enviados com sucesso"),
-    window.location.href = "https://web.facebook.com/";
+  alert("Dados enviados com sucesso"),  
+    window.location.href = "https://www.youtube.com/channel/UCfz6N9d414GjUHpHc00C3LQ/featured";
 });
 
 

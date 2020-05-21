@@ -276,9 +276,14 @@ body {
     padding: 20px 200px 20px 200px;    
 }
 
+#contatoTexto{
+    resize: none;
+}
+
 /* Ícone do menu */
 .icon i {
     display: none;
+    color: white;
 }
 
 
@@ -303,18 +308,29 @@ body {
 
     .videos{
         justify-content: center;
+        /* margin-left: 190px; */
+        margin-left: 0;
+        flex-direction: column;
     }
 
     .form-control{
         width: 250px ;
     }
+
     #buttonQuero{
         width: 250px ;
     }
+
     #contagemRegressiva{
-        width: 100px;
+        width: 500px;
         font-weight: 400;
-        font-size: 50px;
+        font-size: 30px;
+    }
+
+    #containerContato{
+        display: flex;
+        justify-content: center;
+        padding: 0;
     }
 }
 
@@ -335,11 +351,6 @@ body {
         font-size: 21px;
     }
 
-
-    .form-control{
-        
-    }
-
     .videos{
         flex-direction: row;
         justify-content: space-around;
@@ -350,6 +361,9 @@ body {
         width: 500px;
         font-size: 30px;
     }
+    
+
+    
 }
 
 @media (max-width: 1055px) {
@@ -379,6 +393,8 @@ body {
         justify-items: center;
         align-items: center;
     }
+
+
 }
 
 @media (max-width: 965px) { 
@@ -466,9 +482,7 @@ body {
         justify-content: center;
     }
 
-    #contatoTexto{
-        resize: none;
-    }
+    
 
     .form-group{
         display: flex;
