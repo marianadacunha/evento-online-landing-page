@@ -308,7 +308,6 @@ body {
 
     .videos{
         justify-content: center;
-        /* margin-left: 190px; */
         margin-left: 0;
         flex-direction: column;
     }
@@ -334,7 +333,6 @@ body {
     }
 }
 
-/* Para aplicar a responsividade de acordo com a resolução da tela: */
 @media (max-width: 1225px) {
 
     .nav-link{
@@ -440,11 +438,6 @@ body {
     #infoLive, #subtitulo{
         font-size: 15px;
     }
-
-    /* .videos{
-        margin-left: 10em;
-    } */
-    
 }
 
 /* OK */
@@ -482,7 +475,6 @@ body {
     .videos{
         flex-direction: column;
         justify-content: space-around;
-        /* margin-left: 6.5em; */
     }    
 
     #contagemRegressiva{
