@@ -435,24 +435,20 @@ body {
     
 }
 
-@media (max-width: 790px) {
+/* OK */
+@media (max-width: 790px) { 
     
     .nav-link{
         font-size: 10px;
     }
+
     #tituloLive{
         font-size: 52px;
     }
-    #infoLive{
-        font-size: 15px;
-    }
-    #subtitulo{
-        font-size: 15px;
-    }
 
-    #menu{        
-        
-    }
+    #infoLive, #subtitulo{
+        font-size: 15px;
+    }  
 
     .icon i{
         display: block; 
@@ -474,9 +470,9 @@ body {
     .videos{
         flex-direction: column;
         justify-content: space-around;
-        margin: 0;
-    }  
-    
+        margin-left: 6.5em;
+    }    
+
     #contagemRegressiva{
         width: 300px;
         font-size: 15px;
@@ -494,6 +490,5 @@ body {
     .form-group{
         display: flex;
         justify-content: center;
-    }
-    
+    }    
 }
