@@ -1,7 +1,7 @@
 # General Info
 
 Landing page developed with the intent of promoting a live broadcast on the topic "Mental health during quarantine", as a part of a challenge proposed by Gama Academy.</br> 
-This page was coded using HTML, CSS, Bootstrap and JavaScript.
+This page was coded in less than a week using HTML, CSS, Bootstrap and JavaScript.
 
 ### Preview
 
