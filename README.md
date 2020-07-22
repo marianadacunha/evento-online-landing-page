@@ -1,2 +1,10 @@
-# evento-online-landing-page
-Landing page criada como exercício do curso Gama XP #33 para a divulgação de uma transmissão ao vivo sobre o tema "Saúde Mental durante a Quarentena".
+# General Info
+
+Landing page developed with the intent of promoting a live broadcast on the topic "Mental health during quarantine", as a part of a challenge proposed by Gama Academy.</br> 
+This page was coded using HTML, CSS, Bootstrap and JavaScript.
+
+### Preview
+
+You can see the live site clicking <a href="https://fiqueleve.netlify.app/">here</a>.</br>
+
+![Screenshot](https://i.ibb.co/1dxSr1B/image.png)
