@@ -7,4 +7,4 @@ This page was coded in less than a week using HTML, CSS, Bootstrap and JavaScrip
 
 You can see the live site clicking <a href="https://fiqueleve.netlify.app/">here</a>.</br>
 
-![Screenshot](https://i.ibb.co/1dxSr1B/image.png)
+![Screenshot](https://github.com/marianadacunha/evento-online-landing-page/blob/master/docs/screenshot.png?raw=true)
